@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reserva de Viagem</title>
+</head>
+<body>
+    <head>
+        <h1>Reserva de Viagem</h1>
+        <p>Faça sua reserva conosco!</p>
+    </head>
+
+    <form method="get" action="">
+
+        <fieldset>
+            <legend>Dados para reserva:</legend>
+            
+            <br>
+            <label>Nome:</label><br>
+            <input type="text" name="nome" required>
+            <br><br>
+
+            <label>E-mail:</label><br>
+            <input type="email" name="email" required>
+            <br><br>
+
+            <label>Telefone:</label><br>
+            <input type="tel" name="telefone" placeholder="(  ) X XXXX-XXXX">
+            <br><br>
+
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend>Serviços desejados:</legend>
+            <br>
+
+            <label>
+                <input type="checkbox" name="passagens" value="Passagens">Compra de passagens
+                <br>
+            </label>
+
+            <label>
+                <input type="checkbox" name="reserva" value="Reserva">Reserva de hospedagem
+                <br>
+            </label>
+            
+            <label>
+                <input type="checkbox" name="veiculo" value="Veiculo">Aluguel de veículo
+                <br>
+            </label>
+           
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend>Forma de pagamento:</legend>
+
+            <label>
+                <br>
+                <input type="radio" name="credito" value="Crédito">Cartão de crédito
+            </label>
+
+            <label>
+                <br>
+                <input type="radio" name="boleto" value="Boleto">Boleto
+            </label>
+
+            <label>
+                <br>
+                <input type="radio" name="pix" value="Pix">Pix
+            </label>
+        </fieldset>
+        
+        <br>
+
+        <fieldset>
+            <legend>Prazo de pagamento:</legend>
+            <br>
+            <select name="prazoPgto">
+                <option value="aVista">Á vista</option>
+                <option value="5x">5x sem juros</option>
+                <option value="10x">10x com juros</option>
+            </select>
+        </fieldset>
+
+        <br>
+        <label>Comentário:</label><br>
+        <textarea rows="5" name="comentario"></textarea>
+
+        <br><br>
+        <input type="submit" name="enviar">
+    </form>
+
+    <footer>
+        <br><br>
+        <hr>
+        Desenvolvido por Luana
+    </footer>
+</body>
+</html>

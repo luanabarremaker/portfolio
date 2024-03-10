@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade Prática 10 - Containers com BootStrap</title>
+
+    <!--Link Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+
+    <!--Cabeçalho-->
+    <header>
+        <header class="container-fluid p-4 bg-success text-center">
+            <nav class="navbar navbar-expand-lg bg-success">
+    
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">Engenharia de Software</a> <!--Classe para logo do site-->
+    
+                  <!--Botão de navegação para dispositivos menores-->
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+    
+                  <!--Lista de itens do menu-->
+                  <div class="collapse navbar-collapse justify-content-end bg-success" id="navbarSupportedContent">
+    
+                    <ul class="navbar-nav">
+    
+                      <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">Início</a>
+                      </li>
+    
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Disciplinas</a>
+                      </li>
+    
+                      <!--Dropdown-->
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Secretaria
+                        </a>
+    
+                        <!--Menu de dropdown-->
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Documentos</a></li>
+                          <li><a class="dropdown-item" href="#">Provas</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Perguntas</a></li>
+                        </ul>
+                      </li>
+    
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+    
+            <h1>Organize seus estudos!</h1><br>
+            <p>Bem-vindo ao nosso cantinho virtual para quem quer descomplicar os estudos e turbinar o aprendizado! 
+                Aqui você vai encontrar dicas, ferramentas e uma pitada de inspiração para tornar sua jornada acadêmica mais leve e eficiente. 
+                Vamos embarcar juntos nessa aventura de aprender com diversão? 💡</p>
+    </header>
+
+    <!--Primeira section-->
+    <section class="container-fluid bg-light text-center p-3">
+
+        <div class="row align-items-center">
+            <div class="col">
+                <h2>Mas afinal, como organizar os estudos?</h2>
+                <p>
+                    Organizar os estudos é como traçar um mapa para o sucesso. 
+                    Ajuda a aproveitar melhor o tempo, aprender de forma eficiente e alcançar nossos objetivos de estudo. 
+                    É como ter um guia para nos ajudar a chegar lá!
+                    <br><br>
+                    Estabeleça metas claras.
+                    <br>
+                    Crie um cronograma.
+                    <br>
+                    Use técnicas de estudo eficazes.
+                    <br>
+                    Mantenha-se organizado e disciplinado!
+                </p>
+            </div>
+           
+            <div class="col">
+                <figure>
+                    <img src="./imagens/estude.png" alt="Livros" width="200px">
+                    <br>
+                </figure>
+            </div>
+        </div>
+
+        
+    </section>
+
+    <!--Segunda section-->
+    <section class="container-fluid bg-success text-center p-3">
+
+        <div class="row align-items-center">
+            <div class="col">
+                <figure>
+                    <img src="./imagens/cronograma.png" alt="Cronograma" width="200px">
+                </figure>
+            </div>
+    
+            <div class="col">
+                <h2>Criando um cronograma</h2>
+                <p class="text-center">Para criar um cronograma de estudos, comece identificando quanto tempo você tem disponível por dia ou por semana. 
+                    Em seguida, liste todas as matérias ou tópicos que você precisa estudar. 
+                    Divida esse tempo disponível de forma equilibrada entre as diferentes matérias ou tópicos, dando prioridade para aquelas em que você tem mais dificuldade. 
+                    Reserve também alguns intervalos para descanso e lazer, para não sobrecarregar sua mente. 
+                    É importante seguir esse cronograma com disciplina, mas também esteja aberto para ajustá-lo conforme necessário. 
+                    O importante é manter um equilíbrio entre os estudos e seu bem-estar.</p>
+            </div>
+        </div>
+       
+    </section>
+
+    <!--Terceira section-->
+    <section class="container-fluid bg-light text-center p-3">
+
+        <div class="row align-items-center">
+            <div class="col">
+                <h2>Técnicas de estudo</h2>
+                <p class="text-start">
+                    <h5>Resumo Ativo</h5>
+                    
+                    Uma das melhores técnicas de estudo é o resumo ativo. Em vez de apenas reler o material, tente resumi-lo com suas próprias palavras. 
+                    Isso não só ajuda a consolidar o que você aprendeu, mas também a identificar lacunas no seu entendimento. 
+                    Você pode fazer isso escrevendo ou falando em voz alta sobre o que aprendeu.
+                    
+                    <br><br>
+                    <h5>Flashcards</h5>
+                    
+                    Os flashcards são outra técnica eficaz de estudo. Eles são especialmente úteis para memorizar fatos, vocabulário ou conceitos-chave. 
+                    Escreva uma pergunta de um lado do cartão e a resposta do outro lado. 
+                    Depois, revise os flashcards regularmente, testando seu conhecimento e ajustando o ritmo conforme necessário.
+                    
+                    <br><br>
+                    <h5>Ensine o que você aprendeu</h5>
+                    
+                    Ensinar o que você aprendeu é uma maneira poderosa de consolidar o conhecimento. 
+                    Tente explicar os conceitos para um amigo, membro da família ou até mesmo para si mesmo. 
+                    Isso não apenas reforça o que você sabe, mas também ajuda a identificar áreas em que você pode precisar de mais clareza. 
+                    Além disso, ensinar os outros é uma ótima maneira de solidificar seu entendimento e contribuir para o aprendizado de outras pessoas.</p>
+            </div>
+            
+            <div class="col">
+                <figure>
+                    <img src="./imagens/lampada.png" alt="Lâmpada" width="200px">
+                </figure>
+            </div>
+        </div>
+
+    </section>
+
+
+
+    <!--Link Bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <!--Rodapé-->
+    <footer class="container-fluid text-center p-37 bg-success">
+        Todos os direitos reservados © Luana Barremaker 2024.
+    </footer>
+</body>
+</html>

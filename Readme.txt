@@ -1,12 +1,13 @@
-Olá pessoal!
+Hello everyone!
 
-Quero compartilhar uma demonstração básica que fiz no GitHub para explorar o Git. Como estudante do primeiro semestre, aprender sobre controle de versão foi importante.
+I want to share a basic demonstration I created on GitHub to explore Git. As a first-semester student, learning about version control was crucial.
 
-Utilizei um template para mostrar funcionalidades essenciais como git status, git add, git commit, git push e git pull. Essas ferramentas são fundamentais para gerenciar o código e colaborar em equipe.
+I utilized a template to showcase essential functionalities like git status, git add, git commit, git push, and git pull. These tools are fundamental for managing code and collaborating in a team.
 
-Embora não tenha desenvolvido o projeto do zero, aprendi muito explorando suas funcionalidades.
+Although I didn't develop the project from scratch, I learned a lot by exploring its functionalities.
 
 
+-Credits:
 Thanks for downloading this template!
 
 Template Name: iPortfolio

@@ -7,7 +7,7 @@ I utilized a template to showcase essential functionalities like git status, git
 Although I didn't develop the project from scratch, I learned a lot by exploring its functionalities.
 
 
--Credits:
+--Credits:
 Thanks for downloading this template!
 
 Template Name: iPortfolio
